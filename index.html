@@ -4,46 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning to code in html</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>My First HTML Page</h1>
-    <p>Hello, world! This is my first attempt at coding in HTML.</p>
+
+    <h1>MY FIRST HTML PAGE</h1>
+    <p id="intro">Hello, This is my first attempt at coding in HTML.</p>
+<div id ="about-me">
     <h2>About Me</h2>
-    <p>I am excited to learn web development and create amazing websites.</p>
+    <p>I am thrilled to learn web development and create amazing and interactive websites.</p>
+
     <h3><b>My Goals</b></h3>
     <p>To become proficient in HTML, CSS, and JavaScript.</p>
-    <h3><b><u><i>Interests</i></u></b>
-        <ul>
+</div>
+
+<div class="favorites">
+    <h3 id="Interests"><b>Interests</b> </h3> 
+        <ul><u> <b>
             <li>Coding</li>
             <img src="https://wallpapers.com/images/featured/coding-background-9izlympnd0ovmpli.jpg" alt="imge not found" width="100" height="80">
             <li>Web Design</li>
             <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" alt="imge not found" width="100" height="80"> 
             <li>Open Source Projects</li>
             <img src="https://www.nopio.com/wp-content/uploads/2022/06/web-development.jpg" alt="imge not found" width="100" height="80">
-
+            </u>
             <!-- change the above width and height in css later = auto while the other changes according to the image size -->
-
+        </b>
         </ul>
-    </h3>
-    <h5><u>My Hobbies</u>
+    </div>
+    
+<div class="likings">
+    <h5 id="Hobbies"><u>My Hobbies</u>
         <ol>
             <li>Reading Tech Blogs</li>
             <li>Building Small Projects</li>
             <li>Participating in Coding Challenges</li>
         </ol>
     </h5>
-
+</div>
     <hr>
 
+<div class="facts">
     <h2>don't forget to drink H<sub>2</sub>O</h2>
-
 
     <h2>As of 2026, <br> astronomers estimate that there are between 10<sup>22</sup> and 10<sup>24</sup> stars in the observable universe.</h2>
 
-    <h2>Keep Fighting, until the very end</h2>
+</div>
+<hr>
+
+<div class="media">
+    <h2 id="auto">Keep Fighting, until the very end</h2>
     <video loop autoplay muted ="auto" height="340" controls>
         <source src="eren.mp4" type="video/mp4">
         Your browser does not support the video tag.
-
+    </video>
+</div>
 </body>
 </html>

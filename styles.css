@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, #ffecd2, #ffa6d0);
+}
+
+@font-face {
+    font-family: 'deep shadow';
+    src: url('Deep\ Shadow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'aot';
+    src: url(CloisterBlack.ttf) format('truetype');
+
+}
+@font-face {
+    font-family: ditty;
+    src: url(ditty.ttf) format('truetype');
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'deep shadow';
+    font-size: 40px;
+    background-color: #5a37b96b;
+    
+}
+
+
+#intro {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #333;
+    background-color: #37b9a86b;
+}
+
+#about-me {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #492a2a;
+}
+
+#Interests {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 18px;
+}
+.favorites {
+    margin: 20px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6; 
+    color: rgb(48, 47, 19);
+    
+    padding-left: 30px;
+    border: 5px solid #3b2323;
+    border-radius: 10px;
+    background-color: #dab3486b;
+    
+}
+
+/* need some improvement here */
+#Hobbies {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;  
+    color: rgb(129, 97, 216);
+    
+}
+
+.likings {
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #6d6d6d;
+    border-radius: 20px;
+    background-color: #fde5e5;
+    padding-left: 10px;
+    
+}
+/* till here */
+
+.facts {
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #020101;
+    border-radius: 20px;
+    background-color: #f0f8ff;
+    padding-left: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 3px solid #ccc;
+}
+
+
+
+.media {
+    font-family: 'ditty';
+    margin: 20px;
+    color: 			#d2c4ae;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid 	black;
+    border-radius: 20px;
+    background-color: 	#85674f;
+   
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+
